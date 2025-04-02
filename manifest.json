@@ -1,0 +1,30 @@
+{
+    "name": "Konwerter jednostek fizycznych",
+    "short_name": "Konwerter jednostek",
+    "start_url": ".",
+    "background_color": "#000000",
+    "theme_color": "#000000",
+    "display": "standalone",
+    "lang": "en",
+    "orientation": "any",
+    "description": "Aplikacja do zamiany jednostek fizycznych",
+    "scope": "https://reimster206.github.io/list",
+    "prefer_related_applications": true,
+    "serviceWorker":true,
+    "dir": "auto",
+    "handle_links":"preferred",
+    "icons": [
+        {
+            "src": "img/logo192.png",
+            "sizes": "192x192",
+            "type": "img/png",
+            "purpose": "any"
+        },
+        {
+            "src": "img/logo512.png",
+            "sizes": "512x512",
+            "type": "img/png",
+            "purpose": "maskable"
+        }
+    ]
+}

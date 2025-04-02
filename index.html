@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konwerter</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="contener">
+        <label for="#">Podaj wartość</label>
+        <input type="number" id="ilosc">
+        <br><br>
+        <label for="z">Wybierz z jakiej jednostki </label>
+        <select id="z">
+            <option value="milimetry">mm</option>
+            <option value="centymetry">cm</option>
+            <option value="decymetry">dm</option>
+            <option value="metry">m</option>
+            <option value="kilometry">km</option>
+            <option value="milimetry kwadratowe">mm2</option>
+            <option value="centymetry kwadratowe">cm2</option>
+            <option value="decymetry kwadratowe">dm2</option>
+            <option value="metry kwadratowe">m2</option>
+            <option value="kilometry kwadratowe">km2</option>
+            <option value="ary">ary</option>
+            <option value="hektary">ha</option>
+            <option value="milimetry szescienne">mm3</option>
+            <option value="centymetry szescienne">cm3</option>
+            <option value="decymetry szescienne">dm3/litry</option>
+            <option value="metry szescienne">m3</option>
+            <option value="kilometry szescienne">km3</option>
+            <option value="hektolitry">hl</option>
+        </select>
+        <br><br>
+        <label for="do">Wybierz na jaką jednostke </label>
+        <select id="do">
+            <option value="milimetry">mm</option>
+            <option value="centymetry">cm</option>
+            <option value="decymetry">dm</option>
+            <option value="metry">m</option>
+            <option value="kilometry">km</option>
+            <option value="milimetry kwadratowe">mm2</option>
+            <option value="centymetry kwadratowe">cm2</option>
+            <option value="decymetry kwadratowe">dm2</option>
+            <option value="metry kwadratowe">m2</option>
+            <option value="kilometry kwadratowe">km2</option>
+            <option value="ary">ary</option>
+            <option value="hektary">ha</option>
+            <option value="milimetry szescienne">mm3</option>
+            <option value="centymetry szescienne">cm3</option>
+            <option value="decymetry szescienne">dm3/litry</option>
+            <option value="metry szescienne">m3</option>
+            <option value="kilometry szescienne">km3</option>
+            <option value="hektolitry">hl</option>
+        </select>
+        <br>
+        <button type="button" id="btn">Przelicz</button>
+        <p id="wynik"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
